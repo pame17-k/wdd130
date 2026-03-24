@@ -3,11 +3,25 @@ body {
     margin: 1rem;
 }
 
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li {
+    flex: 1 1 100%;
+}
+
 .flex-container {
     border: 3px dashed darkcyan;
     background-color: lightyellow;
     display: flex;
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .flex-item {
