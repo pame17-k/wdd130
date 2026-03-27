@@ -1,9 +1,8 @@
 /**/
 :root {
   --primary-color: #055a05; /* forest green */
-  --secondary-color: #f4a261; /* warm sand */
+  --secondary-color: #e6b892; /* warm sand */
   --accent1-color: #264653; /* dark slate blue */
-  --accent2-color: #e9c46a; /* light golden yellow */
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -51,6 +50,7 @@ nav, p, section, article {
 
 .hero {
   position: relative;
+  background-color: var(--secondary-color);
 }
 
 .hero img {
