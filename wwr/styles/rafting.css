@@ -63,3 +63,7 @@ nav, p, section, article {
   float: right;
   width: 125px;
 }
+
+.hero article {
+  position: absolute;
+}
