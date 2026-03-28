@@ -23,6 +23,36 @@ header, main, footer {
   margin: 0 auto;
 }
 
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  align-items: center;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+header img {
+  max-width: 120px;
+  height: auto;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  list-style: none;
+}
+header nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+
+
+
 h1, h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
@@ -57,13 +87,93 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
-  }
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff;
+}
 
 .hero article img {
   float: right;
   width: 125px;
+
+  margin-left: 12px;
+  border: 2px solid var(--accent2-color);
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
 }
 
 .hero article {
   position: absolute;
+
+  bottom: 20px;
+  left: 20px;
+  background-color: var(--secondary-color);
+  padding: 12px;
+  border-radius: 6px;
+  opacity: 0.9;
+}
+
+.history {
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
+  gap: 20px;
+  align-items: center;
+  margin: 32px 0;
+}
+
+.history img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.adventures{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 32px 0;
+}
+
+.adventures figure {
+  flex: 1 1 150px;
+  text-align: center;
+}
+
+.adventures img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.adventures figcaption {
+  margin-top: 8px;
+  font-style: italic;
+  color: var(--accent1-color);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: var(--accent1-color);
+  color: white;
+}
+
+footer .socialmedia {
+  display: flex;
+  gap: 12px;
+}
+
+footer .socialmedia img {
+  width: 32px;
+  height: 32px;
 }
