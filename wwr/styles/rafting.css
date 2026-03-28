@@ -165,7 +165,7 @@ footer {
   align-items: center;
   padding: 12px;
   background-color: var(--accent1-color);
-  color: white;
+  color:#fff;
 }
 
 footer .socialmedia {
