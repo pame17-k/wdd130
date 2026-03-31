@@ -123,18 +123,29 @@ nav, p, section, article {
 
 .history {
   display: grid;
-  grid-template-columns: 1fr 200px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  align-items: flex-start; /*center*/
+  align-items: center;
   margin: 32px 0;
 }
 
+.history h2 {
+  grid-column: 1 / 4;
+  text-align: center;
+  margin-bottom: 16px;  
+}
+
 .history img {
-  display: grid;
-  width: 100%;
+  justify-self: center;
+  align-self: center;
+  width: 60%;
   height: auto;
-  border-radius: 8px;
-  align-items: center;
+  border-radius: 5px;
+}
+
+.history p {
+  text-align: justify;
+
 }
 
 .adventures{
