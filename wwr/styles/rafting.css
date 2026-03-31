@@ -125,14 +125,16 @@ nav, p, section, article {
   display: grid;
   grid-template-columns: 1fr 200px 1fr;
   gap: 20px;
-  align-items: center;
+  align-items: flex-start; /*center*/
   margin: 32px 0;
 }
 
 .history img {
+  display: grid;
   width: 100%;
   height: auto;
   border-radius: 8px;
+  align-items: center;
 }
 
 .adventures{
