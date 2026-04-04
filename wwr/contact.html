@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | Blue Current Rafting</title>
-    <meta name="description" content="Contact us to plan your rafting experience. Our team is here to help you with any questions, reservations, or special details you may need. Write to us and discover how we can make your rafting experience an unforgettable memory.">
+    <meta name="description" content="Contact us to plan your rafting experience. Our team is here to help you with any questions, reservations, or special details you may need. Discover how we can make your experience an unforgettable memory.">
     <meta name="author" content="Pamela Michelle Beltran Trujillo">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -24,40 +24,63 @@
 
     <main>
         <div class="hero">
-            <img src="images/rafting.jpg" alt="Our trips">
             <h1>Blue Current Rafting</h1>
-            <article>
-                <img src="images/happyc.jpg" alt="Happy client" width="300">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure et tenetur accusamus corrupti dicta earum dolor animi a beatae exercitationem.</p>
-            </article>
+            <p>Los Lagos</p>
+            <p>Los Rios, Chile</p>
+            <p>+1 999 999 9999</p>
+            <p>info@bluecurrent.com</p>
+            
         </div>
         <section class="history"> 
-            <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident voluptatem unde repudiandae rem culpa est. Quisquam quod eaque repellendus deserunt aspernatur perferendis illo sint, corporis, dolore cumque, aperiam iusto sit excepturi tempora totam beatae. Ea impedit deserunt officia cum velit.</p>
-            <img src="images/history.jpg" alt="Our history">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores natus sunt suscipit tenetur alias, consequuntur dolorum eaque magni. Perspiciatis facere quis obcaecati totam perferendis officiis et, ut rerum debitis tempora. Unde quam similique laboriosam quia quas dolore nesciunt, tempora animi?</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d50524.99343228829!2d-72.74325974859445!3d-39.854831718714514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1775336801227!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <form class="box">
+                <div class="quiz-item box">
+                    <label for="q1">Name</label>
+                    <input type="text" id="q1" name="q1" required>
+                </div>
+                <div class="quiz-item box">
+                    <label for="q2">Email</label>
+                    <input type="email" id="q2" name="q2" required>
+                </div>
+                <div class="quiz-item box">
+                    <p>Message Purpose</p>
+                    <input type="radio" id="inquiry" name="purpose" value="inquiry">
+                    <label for="inquiry">General Inquiry</label><br>
+
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label><br>
+
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
+                <div class="quiz-item box">
+                    <label for="q4">Message</label>
+                    <textarea id="q4" name="q4"></textarea>
+                </div>
+                <div class="quiz-item box">
+                    <label for="q5">Please Subscribe me to the monthyly newsletter</label>
+                    <input type="checkbox" id="q5" name="q5">
+                </div>
+                <button type="submit"> Get in Touch!</button>
+            </form>
         </section>
+
         <section class="adventures">
-            <h2>Adventure Awaits You!</h2>
+            <h2>We Are Here to Serve You</h2>
             <figure>
-                <img src="images/raf1.jpg" alt="Fun after the waters">
-                <figcaption>Fun after the waters</figcaption>
+                <img src="images/person1.jpg" alt="Lara - Customer Service">
+                <figcaption>Lara - Customer Service</figcaption>
             </figure>
             <figure>
-                <img src="images/raf2.jpg" alt="Safe equipment">
-                <figcaption>Safe equipment</figcaption>
+                <img src="images/person2.jpg" alt="Jhon - Guide">
+                <figcaption>Jhon - Guide</figcaption>
             </figure>
             <figure>
-                <img src="images/raf3.jpg" alt="Challenges in water">
-                <figcaption>Challenges</figcaption>
-            </figure>
-            <figure>
-                <img src="images/raf4.jpg" alt="Fun with friends">
-                <figcaption>Fun with friends</figcaption>
-            </figure>
-            <figure>
-                <img src="images/raf5.jpg" alt="Landscape in our trips">
-                <figcaption>Landscape</figcaption>
+                <img src="images/person3.jpg" alt="Javier - Reservations">
+                <figcaption>Javier - Reservations</figcaption>
             </figure>
         </section>
     </main>
